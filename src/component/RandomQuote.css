@@ -1,0 +1,61 @@
+/* RandomQuoteMachine.css */
+#quote-box {
+    width: 60%;
+    max-width: 500px;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial, sans-serif';
+}
+
+#text {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#author {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+#new-quote {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#new-quote:hover {
+    background-color: #0056b3;
+}
+
+#tweet-quote {
+    padding: 10px 20px;
+    border: none;
+    background-color: #1da1f2;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#tweet-quote:hover {
+    background-color: #0a84d1;
+}
+
+@media (max-width: 600px) {
+    #quote-box {
+        width: 90%;
+        padding: 15px;
+    }
+}
